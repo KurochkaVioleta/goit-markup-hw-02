@@ -36,8 +36,8 @@ body {
   color: var(--primary-brand-color);
 }
 /* MENU  */
-.nav-menu {
-  font-weight: 500;
+.nav-link {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -112,6 +112,12 @@ body {
   color: var(--dark-color);
 }
 /* TEAM  */
+.team {
+background-color: var(--light-color);
+}
+.team-items {
+  background-color: var(--white-color);
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -176,8 +182,12 @@ body {
   background-color: var(--primary-brand-color);
   color: var(--white-color);
 }
+.current-button{
+  background-color: var(--primary-brand-color);
+color: var(--white-color);
+}
 /* portfolio card  */
-.porfolio-titles {
+.porfolio-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
